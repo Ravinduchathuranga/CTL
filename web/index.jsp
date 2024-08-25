@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="/WEB-INF/tlds/ctl.tld" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,5 +14,8 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <h1><c:customPrint/></h1>
+        <h1><c:customPrint/></h1>
+        <h1><c:customPrint/></h1>
     </body>
 </html>
